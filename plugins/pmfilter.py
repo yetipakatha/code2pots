@@ -105,7 +105,7 @@ async def give_filter(client, message):
                 parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('• ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ •', url ='https://telegram.me/movie7xchat')
+                            InlineKeyboardButton('• ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ •', url ='https://t.me/SVDmaniamovies')
                         ]]
                     )
                 )
