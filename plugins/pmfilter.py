@@ -2168,10 +2168,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ], [
             InlineKeyboardButton ('• 𝑣𝑖𝑠𝑖𝑡 𝑜𝑢𝑟 𝑤𝑜𝑟𝑙𝑑 •', url="https://t.me/smarhkarts_gAme"),
-        ], [
-            InlineKeyboardButton('• 𝗚𝗮𝗺𝗲𝗿 •', user_id=int(655594746)),[
+        ],[
+            InlineKeyboardButton('• 𝗚𝗮𝗺𝗲𝗿 •', user_id=int(655594746)),
             InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
-        ], [
+        ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
